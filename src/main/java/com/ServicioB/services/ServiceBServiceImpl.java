@@ -1,15 +1,15 @@
-package ar.com.tdm.mock.services;
+package com.ServicioB.services;
 
-import ar.com.tdm.mock.entities.repository_entities.Interaction;
-import ar.com.tdm.mock.entities.repository_entities.LastSyncInfo;
-import ar.com.tdm.mock.entities.repository_entities.SuperHero;
-import ar.com.tdm.mock.entities.response_entities.ComicCharacter;
-import ar.com.tdm.mock.entities.response_entities.HeroeInteractResponse;
-import ar.com.tdm.mock.exceptions.HeroNotFoundException;
-import ar.com.tdm.mock.exceptions.LastTimeNotFoundException;
-import ar.com.tdm.mock.repository.InteractionRepository;
-import ar.com.tdm.mock.repository.LastSyncInfoRepository;
-import ar.com.tdm.mock.repository.SuperHeroRepository;
+import com.ServicioB.entities.repository_entities.Interaction;
+import com.ServicioB.entities.repository_entities.LastSyncInfo;
+import com.ServicioB.entities.repository_entities.SuperHero;
+import com.ServicioB.entities.response_entities.ComicCharacter;
+import com.ServicioB.entities.response_entities.HeroeInteractResponse;
+import com.ServicioB.exceptions.HeroNotFoundException;
+import com.ServicioB.exceptions.LastTimeNotFoundException;
+import com.ServicioB.repository.InteractionRepository;
+import com.ServicioB.repository.LastSyncInfoRepository;
+import com.ServicioB.repository.SuperHeroRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

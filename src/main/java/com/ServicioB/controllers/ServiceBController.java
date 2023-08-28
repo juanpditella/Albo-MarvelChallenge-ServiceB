@@ -1,4 +1,4 @@
-package ar.com.tdm.mock.controllers;
+package com.ServicioB.controllers;
 
 public interface ServiceBController {
 }

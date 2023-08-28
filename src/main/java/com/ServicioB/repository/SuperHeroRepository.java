@@ -1,9 +1,8 @@
-package ar.com.tdm.mock.repository;
+package com.ServicioB.repository;
 
-import ar.com.tdm.mock.entities.repository_entities.SuperHero;
+
+import com.ServicioB.entities.repository_entities.SuperHero;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

@@ -1,9 +1,10 @@
-package ar.com.tdm.mock.controllers;
+package com.ServicioB.controllers;
 
-import ar.com.tdm.mock.entities.response_entities.HeroeInteractResponse;
-import ar.com.tdm.mock.exceptions.HeroNotFoundException;
-import ar.com.tdm.mock.exceptions.LastTimeNotFoundException;
-import ar.com.tdm.mock.services.ServiceBService;
+
+import com.ServicioB.entities.response_entities.HeroeInteractResponse;
+import com.ServicioB.exceptions.HeroNotFoundException;
+import com.ServicioB.exceptions.LastTimeNotFoundException;
+import com.ServicioB.services.ServiceBService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

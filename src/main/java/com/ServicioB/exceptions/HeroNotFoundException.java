@@ -1,4 +1,4 @@
-package ar.com.tdm.mock.exceptions;
+package com.ServicioB.exceptions;
 
 
 public class HeroNotFoundException extends Exception {
